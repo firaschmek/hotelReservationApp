@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-reservation-form',
@@ -9,6 +9,6 @@ import { FormGroup } from '@angular/forms';
 })
 export class ReservationForm {
 
-  reservationForm : FormGroup=new FormGroup({});
+  reservationForm: FormGroup = new FormGroup({});
 
 }
