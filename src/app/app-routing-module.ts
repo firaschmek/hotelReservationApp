@@ -6,7 +6,7 @@ import { ReservationForm } from './reservation-form/reservation-form';
 
 const routes: Routes = [
   { path: "", component: Home },
-  { path: "lsit", component: ReservationList },
+  { path: "list", component: ReservationList },
   { path: "new", component: ReservationForm }
 ];
 
